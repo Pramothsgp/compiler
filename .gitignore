@@ -1,0 +1,41 @@
+# Node dependencies
+node_modules/
+
+# Temp files for code execution
+temp/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment config
+.env
+.env.*
+
+# IDE settings
+.vscode/
+.idea/
+
+# Docker artifacts
+*.pid
+docker-data/
+
+# Optional: OS-specific
+*.swp
+*.swo
+
+# Optional: if using PM2 or build tools
+pids/
+dist/
+build/
+
+# Ignore output/test folders (if you add them)
+out/
+coverage/
