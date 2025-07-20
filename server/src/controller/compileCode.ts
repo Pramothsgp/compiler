@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import { runCode } from "../service/codeRunner";
+import { runCode } from "../services/codeRunner";
 
 
 export const compile = async (req : Request, res: Response , next: NextFunction) => {
